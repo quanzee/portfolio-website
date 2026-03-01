@@ -1,10 +1,15 @@
+import { ArrowRight } from "lucide-react";
+
 const Writing = () => {
     return (
         <section id="writing" className="py-24 px-6 bg-white">
-            <h2 className="text-4xl md:text-5xl mb-4">Writing</h2>
-            <p className="text-lg text-gray-600 mb-12">
-                I'm a passionate developer with a focus on creating interactive web applications.
-            </p>
+            <div className="inline-flex items-end gap-4 mb-4">
+            <h2 className="text-4xl md:text-5xl">Writings</h2>
+            <button className="inline-flex text-xs items-center gap-1 px-3 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">
+                See More
+                <ArrowRight size={10} />
+            </button>
+            </div>
 
             {/* The Grid Container */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
