@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Mail, Github, Linkedin, Send } from 'lucide-react';
 
 const Contact = () => {
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -16,6 +18,14 @@ const Contact = () => {
   const handleSubmit = (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Handle form submission
+
+    if (!formData.email.includes('.')) {
+    alert("Please enter a valid email with a domain (i.e. .com)");
+    return; // This stops the function from continuing!
+  }
+
+    setFormData({ name: '', email: '', message: '' });
+    setShowSuccessModal(true);
   };
 
   return (
@@ -30,10 +40,10 @@ const Contact = () => {
               Feel free to reach out through any of these channels or use the
               contact form. I typically respond within 24 hours.
             </p>
-            <div className="space-y-4">
+            <div className="flex flex-col gap-4">
               <a
                 href="mailto:jannang201@gmail.com"
-                className="flex items-center gap-3 text-gray-700 hover:text-black transition-colors"
+                className="inline-flex w-fit items-center gap-3 text-gray-700 hover:text-black transition-colors mb-4"
               >
                 <Mail size={20} />
                 jannang201@gmail.com
@@ -42,7 +52,7 @@ const Contact = () => {
                 href="https://github.com/quanzee"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-gray-700 hover:text-black transition-colors"
+                className="inline-flex w-fit items-center gap-3 text-gray-700 hover:text-black transition-colors mb-4"
               >
                 <Github size={20} />
                 GitHub
@@ -51,7 +61,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/janna-ng-quanzee/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-gray-700 hover:text-black transition-colors"
+                className="inline-flex w-fit items-center gap-3 text-gray-700 hover:text-black transition-colors mb-4"
               >
                 <Linkedin size={20} />
                 LinkedIn
@@ -114,6 +124,20 @@ const Contact = () => {
               </button>
             </form>
           </div>
+          {showSuccessModal && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800/50 backdrop-blur-sm">
+              <div className="bg-gray-300 p-6 rounded-lg shadow-lg">
+                <h3 className="text-lg font-semibold mb-4">Thank you for reaching out.</h3>
+                <p>Your message has been sent successfully.</p>
+                <button
+                  onClick={() => setShowSuccessModal(false)}
+                  className="mt-4 px-4 py-2 bg-black text-white rounded-lg"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          )}
         </div>
     </section>
 
