@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ExternalLink} from 'lucide-react';
 import github from '../assets/Github_Invertocat_Black_Clearspace.svg';
 import upNextLoomi from '../assets/upnext.png';
@@ -92,9 +93,9 @@ const Projects = () => {
           ))}
         </div>
 
-      <button className="block mx-auto text-xs px-3 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors mt-12">
+      <Link to="/projects" className="block mx-auto w-fit text-xs px-3 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors mt-12">
         See More
-      </button>
+      </Link>
     </section>
   );
 };
