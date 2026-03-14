@@ -7,7 +7,7 @@ const Hero = () => {
         Hi, I'm <span className="font-semibold text-8xl">Janna</span>
       </h1>
       <p className="text-2xl text-gray-500 max-w-2xl">
-        Master of IT student specialising in Data Science, LLMs and Multi-Agent Systems
+        Master of IT student specialising in Data Science and AI
       </p>
 
       <a href="#about">
