@@ -8,7 +8,9 @@ export default function ScrollToTop() {
   // The useEffect hook runs an action in response to a change
   useEffect(() => {
     // This snaps the scroll to the top-left (0,0) every time the path changes
-    window.scrollTo(0, 0);
+    if (!window.location.hash) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   }, [pathname]); //the dependency array which triggers the logic
 
   return null; // This component doesn't render any UI
