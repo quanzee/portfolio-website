@@ -8,7 +8,8 @@ const About = () => {
           <div>
             <p className="text-lg text-gray-600 mb-6">
               Hi, I'm Janna. I'm a developer based in Melbourne who loves building everything from sleek full-stack applications to complex LLM systems. 
-              I'm currently pursuing a Master of IT, where I'm spending most of my time researching <b>autonomous AI agents</b> and <b>multi-agent systems</b> for my thesis.
+              I'm currently pursuing a Master of IT, where I'm spending most of my time researching <b>autonomous AI agents</b> and <b>multi-agent systems</b> for my thesis,
+              exploring how autonomous LLM agents can populate persistent virtual environments.
             </p>
             <p className="text-lg text-gray-600 mb-6">    
               I previously worked in <b>economics and policy consulting</b>, which gives me a unique lens 
@@ -19,7 +20,7 @@ const About = () => {
               always eager to explore new ideas.
             </p>
             <p className="text-lg text-gray-600">
-              I am currently looking for opportunities to contribute my skills to impactful projects and to gain new work experience.
+              I am currently looking for opportunities to contribute my skills to impactful projects and to gain new work experience. Feel free to reach out if you want to connect or collaborate!
             </p>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden">
