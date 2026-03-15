@@ -10,7 +10,7 @@ const Projects = () => {
 
     <section id="projects" className="py-24 px-6 bg-white">
       <h2 className="text-4xl md:text-5xl mb-4">Featured Projects</h2>
-      <p className="text-lg text-gray-600 mb-12">A selection of my recent work. Each project represents a unique challenge and learning experience.</p>
+      <p className="text-lg text-gray-600 mb-12">A selection of highlighted work. Click on a project to learn more.</p>
 
       {/* The Grid Container */}
        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
