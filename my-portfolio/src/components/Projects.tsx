@@ -19,7 +19,7 @@ const Projects = () => {
           ))}
         </div>
 
-      <Link to="/projects" className="block mx-auto w-fit text-xs px-3 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors mt-12">
+      <Link to="/projects" className="block mx-auto w-fit text-m px-3 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors mt-12">
         See More
       </Link>
     </section>
