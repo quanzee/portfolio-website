@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ProjectsPage from './pages/ProjectsPage';
 import ScrollToTop from './components/ScrollToTop';
+import ProjectDetail from './pages/ProjectDetail';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
         {/* The "Sub-pages" */}
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/projects/:projectId" element={<ProjectDetail />} />
       </Routes>
     </BrowserRouter>
   );
