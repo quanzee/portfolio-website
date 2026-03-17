@@ -6,10 +6,10 @@ import ReactMarkdown from 'react-markdown';
 import { ExternalLink, Github } from 'lucide-react';
 
 const ProjectDetail = () => {
-  const { projectId } = useParams(); // a hook to read the ID from the URL and then find the matching project in project.ts
+  const { projectId } = useParams<{ projectId: string }>(); // a hook to read the ID from the URL and then find the matching project in project.ts
   
   // Find the specific project in your array
-  const project = projects.find((p) => p.id === parseInt(projectId));
+  const project = projects.find((p) => p.id === parseInt(projectId || "0"));
   const [markdown, setMarkdown] = useState('');
 
     useEffect(() => {

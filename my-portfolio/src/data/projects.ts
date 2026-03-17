@@ -8,6 +8,7 @@ import ISM_AdminProject from '../assets/ISM_AdminProject.png';
 import portfolioWebsite from '../assets/portfolioWebsite.png';
 import dataScience from '../assets/dataScience.png';
 import dataScienceHeroImage from '../assets/dataScience_heroImage.png';
+import { data } from 'react-router-dom';
 
 export const projects = [
   {
