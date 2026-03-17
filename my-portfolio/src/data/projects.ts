@@ -110,4 +110,20 @@ export const projects = [
       { type: 'text', content: 'The challenge was memory persistence...' }
     ]
   },
+        {
+    id: 7,
+    title: 'This Portfolio Website',
+    description:
+      'A collaborative task management tool with real-time updates, team workspaces, and productivity insights.',
+    image:
+      'https://images.unsplash.com/photo-1666723043169-22e29545675c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b3Jrc3BhY2UlMjBkZXNrfGVufDF8fHx8MTc3MTc3NDY0M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    tags: ['React', 'Vite', 'TypeScript', 'Tailwind CSS'],
+    github: '#',
+    live: '#',
+    sections: [
+      { type: 'text', content: 'In this project, I built a town of agents...' },
+      { type: 'image', url: '/project-img.jpg', caption: 'The architecture' },
+      { type: 'text', content: 'The challenge was memory persistence...' }
+    ]
+  },
 ];
