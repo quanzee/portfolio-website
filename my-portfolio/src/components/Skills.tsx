@@ -19,8 +19,8 @@ const skillCategories = [
   },
   {
     icon: Bot,
-    title: 'Data Science',
-    skills: ['Python', 'Data Analysis', 'Machine Learning', 'R Studio'],
+    title: 'Data Science & AI',
+    skills: ['Python', 'Data Analysis', 'Machine Learning', 'R Studio', 'Azure AI Foundry'],
   },
   {
     icon: GitBranch,
