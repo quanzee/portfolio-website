@@ -67,7 +67,7 @@ const ProjectDetail = () => {
                 </div>
 
                 </div>
-                  <img src={project.heroImage} alt={project.title} className="rounded-lg shadow-lg object-cover" />
+                  <img src={project.heroImage} alt={project.title} className="max-h-[500px] rounded-lg shadow-lg object-cover mx-auto" />
         </div>
 
         <div className="bg-gray-100 p-6 rounded-lg">
