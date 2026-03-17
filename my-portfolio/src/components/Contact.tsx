@@ -37,8 +37,7 @@ const Contact = () => {
           <div>
             <h3 className="text-2xl mb-6">Let's Connect</h3>
             <p className="text-gray-600 mb-8">
-              Feel free to reach out through any of these channels or use the
-              contact form. I typically respond within 24 hours.
+              Feel free to reach out via <b>email</b> or this <b>contact form</b>, as I am most responsive via email. You can also visit my social media profiles below.
             </p>
             <div className="flex flex-col gap-4">
               <a
