@@ -15,7 +15,7 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.SubmitEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Handle form submission
 
@@ -24,8 +24,20 @@ const Contact = () => {
     return; // This stops the function from continuing!
   }
 
-    setFormData({ name: '', email: '', message: '' });
+    //send to Formspree
+    const response = await fetch(`https://formspree.io/f/${import.meta.env.VITE_FORMSPREE_ID}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+          setFormData({ name: '', email: '', message: '' });
     setShowSuccessModal(true);
+    }
+
   };
 
   return (
