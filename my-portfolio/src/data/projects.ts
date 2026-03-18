@@ -3,12 +3,10 @@ import upNextHeroImage from '../assets/upnext_heroImage.png'
 import loomi from '../assets/loomi_icon.jpg';
 import loomiHeroImage from '../assets/loomi_heroImage.png';
 import residentHealthCare from '../assets/residentHealthCare.png';
-import residentHealthCareHeroImage from '../assets/residentHealthCare_heroImage.png';
 import ISM_AdminProject from '../assets/ISM_AdminProject.png';
 import portfolioWebsite from '../assets/portfolioWebsite.png';
 import dataScience from '../assets/dataScience.png';
 import dataScienceHeroImage from '../assets/dataScience_heroImage.png';
-import { data } from 'react-router-dom';
 
 export const projects = [
   {
@@ -41,7 +39,7 @@ export const projects = [
     description:
       'A resident healthcare management system with different interfaces for different staff roles in a care home with a fully functioning backend and frontend. Completed as part of an Advanced Programming course.',
     image: residentHealthCare,
-    heroImage: residentHealthCareHeroImage,
+    heroImage: residentHealthCare,
     tags: ['Java', 'SQL'],
     github: 'https://github.com/COSC1295-advanced-programming-2025-s2/s4160608_JannaQianZiNg_Assignment2.git',
     live: '#',
