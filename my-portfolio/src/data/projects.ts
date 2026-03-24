@@ -16,7 +16,7 @@ export const projects = [
       'An adaptive assignment planner prototype that helps students break assignments into manageable sessions, visualises progress, and produces deadline-aware suggestions. Won 4th place in the CSIT X SWITCH 2025 Hackathon.',
     image: upNext,
     heroImage: upNextHeroImage,
-    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Figma'],
+    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Git', 'Figma'],
     github: 'https://github.com/JovenTung/UpNext.git',
     live: 'https://up-next-theta.vercel.app/',
     contentPath: '/content/upnext.md',
