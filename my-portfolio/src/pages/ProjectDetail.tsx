@@ -71,7 +71,7 @@ const ProjectDetail = () => {
         </div>
 
         <div className="bg-gray-100 p-6 rounded-lg">
-    <article className="prose lg:prose-xl mx-auto px-6">
+    <article className="prose lg:prose-xl max-w-none mx-auto px-6">
       {/* This component turns # Heading into <h1>Heading</h1> */}
       <ReactMarkdown>{markdown}</ReactMarkdown>
     </article>
