@@ -1,4 +1,4 @@
-TLDR
+### TLDR
 
 UpNext is a web app prototype designed to alleviate student burnout by breaking down daunting assignments into manageable, deadline-aware study sessions. Developed in roughly 36 hours, this project marked my first foray into the "pressure cooker" environment of a hackathon and served as a deep dive into rapid prototyping with React, Next.js, and Tailwind CSS.
 
