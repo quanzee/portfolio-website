@@ -2,13 +2,13 @@
 
 UpNext is a web app prototype designed to alleviate student burnout by breaking down daunting assignments into manageable, deadline-aware study sessions. Developed in roughly 36 hours, this project marked my first foray into the "pressure cooker" environment of a hackathon and served as a deep dive into rapid prototyping with React, Next.js, and Tailwind CSS.
 
-Role: Lead UI/UX Designer & Frontend Contributor
+**Role:** Lead UI/UX Designer & Frontend Contributor
 
-Team: 3 Members
+**Team:** 3 Members
 
-Tech Stack: React, Next.js, TypeScript, Tailwind CSS, Github
+**Tech Stack:** React, Next.js, TypeScript, Tailwind CSS, Github
 
-Key Outcome: A high-fidelity, functional frontend prototype that visualizes student progress and task decomposition.
+**Key Outcome:** A high-fidelity, functional frontend prototype that visualizes student progress and task decomposition.
 
 [Click here to watch a demonstration video of UpNext](https://youtu.be/ZTvxFacrrQI)
 
@@ -60,4 +60,3 @@ Watching the winning top 3 teams was a humbling experience. While we focused on 
 2. **The Shift to "Logic-First" Development**
 This hackathon was the catalyst for my current focus in my Master’s program. I realized that while AI can write code, it cannot maintain architectural integrity. This project motivated me to move away from "vibe-coding" and toward deeply understanding data structures and state management, so I can lead the AI rather than follow it.
 **Lesson learned**: Whenever given the opportunity, I should always try to understand the mechanisms underlying the code provided by AI instead of purely copying and pasting. It is still important to understand the code.
-
