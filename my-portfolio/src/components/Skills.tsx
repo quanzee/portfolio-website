@@ -10,7 +10,7 @@ const skillCategories = [
   {
     icon: Code2,
     title: 'Fullstack Development',
-    skills: ['React', 'TypeScript', 'Node.js', 'Next.js', 'Vite', 'Tailwind CSS', 'SQL', 'Swift', 'Java'],
+    skills: ['React', 'TypeScript', 'Node.js', 'Next.js', 'Vite', 'Tailwind CSS', 'SQL', 'Swift', 'Java', 'C#'],
   },
   {
     icon: Palette,
@@ -30,7 +30,7 @@ const skillCategories = [
   {
     icon: Layers,
     title: 'Other Skills',
-    skills: ['Microsoft Office', 'Google Workspace','Research & Analysis'],
+    skills: ['Microsoft Office', 'Google Workspace','Research & Analysis', 'Requirements Analysis', 'Stakeholder Management', 'Pitch Deck Design'],
   },
 ];
 

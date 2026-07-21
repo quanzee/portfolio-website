@@ -7,13 +7,13 @@ const About = () => {
                     <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-600 mb-6">
-              Hi, I'm Janna. I'm a developer based in Melbourne who loves building everything from sleek full-stack applications to complex LLM systems. 
-              I'm currently pursuing a Master of IT, where I'm spending most of my time researching <b>autonomous AI agents</b> and <b>multi-agent systems</b> for my thesis,
-              exploring how autonomous LLM agents can populate persistent virtual environments.
+              Hi, I'm Janna. I'm a developer based in Melbourne with a background spanning <b>software development, data</b> and <b>consulting</b>.
+            </p>
+            <p className="text-lg text-gray-600 mb-6">
+              I'm currently completing a <b>Master of IT</b> at <b>RMIT</b>, where I'm researching multi-agent AI systems for my thesis — but my broader interest is in how technology and data can be applied practically to <b>solve real problems</b>, not just in research settings.
             </p>
             <p className="text-lg text-gray-600 mb-6">    
-              I previously worked in <b>economics and policy consulting</b>, which gives me a unique lens 
-              on how technology affects the world. I thrive at the intersection of <b>data science</b> and <b>software engineering</b>, bringing an analytical mindset from my consulting background to every line of code.
+              I previously worked in <b>economics and policy consulting</b>, which shaped how I approach problems: analytically, with an eye for the bigger picture and how decisions affect people. That mix of <b>technical and business thinking</b> is what I bring to any team I work with, whether that's <b>building software, analysing requirements</b> or <b>helping translate ideas into delivery</b>.
             </p>
             <p className="text-lg text-gray-600 mb-6">
               Outside of work, my hobbies include <b>reading</b> on a wide range of topics from non-fiction to manga, <b>drawing</b>, <b>going to the gym</b> and <b>playing board games with friends</b>. I approach both my work and hobbies with a mindset of <b>curiosity and continuous learning</b>, 
